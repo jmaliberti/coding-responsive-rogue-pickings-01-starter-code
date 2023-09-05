@@ -28,19 +28,19 @@ h4 {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 1.875em;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.25em;
 }
 
 h4 {
-	font-size: 12px;
+	font-size: 0.75em;
 }
 
 p {
@@ -58,6 +58,8 @@ header {
 header h1 {
 	padding: 38px 0;
 	width: 100%;
+	border-bottom: 3px;
+	border-color: #45610E;
 }
 
 header h1 span {
@@ -71,13 +73,14 @@ header nav {
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 header nav ul li {
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 10px 0px;
 	width: 100%;
 }
 
@@ -146,7 +149,7 @@ header nav ul li a {
 
 .menu-list li {
 	color: #45610E;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 36px;
 }
 
@@ -163,5 +166,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #45610E;
-	font-size: 14px;
+	font-size: 0.875em;
 }
