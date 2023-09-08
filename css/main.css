@@ -56,10 +56,9 @@ header {
 }
 
 header h1 {
-	padding: 38px 0;
+	padding: 38px 0px 20px;
 	width: 100%;
-	border-bottom: 3px;
-	border-color: #45610E;
+	border-bottom: 3px solid #45610E;
 }
 
 header h1 span {
@@ -67,7 +66,7 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 10px 0;
 }
 
 header nav ul {
@@ -93,9 +92,10 @@ header nav ul li a {
 /******** TOP SECTION ********/
 /* The widths are in a percentage! */
 .main-image img {
-	width: 100%;
+	width: 90%;
 	border-top: 3px solid #77A466;
 	border-bottom: 3px solid #77a466;
+
 }
 
 
@@ -109,6 +109,7 @@ header nav ul li a {
 .bottom-section {
 	display: flex;
 	justify-content: center;
+	flex-flow: row wrap;
 }
 
 .bottom-section .content-wrapper {
