@@ -202,27 +202,32 @@ footer span {
 /*** Desktop ***/
 @media all and (min-width: 1200px) {
 
+	body{
+		width: 100%;
+		font-size: 1em;
+	}
+
 	header .content-wrapper {
 		display: flex;
 		justify-content: space-between;
-		width: 90%;
+		align-items: center;
 	}
 
 	header h1 {
-		padding: ;
+		padding: 20px 0;
 		width: 79%;
 		text-align: left;
 		border-bottom: 0px
 	}
 
 	header nav {
-		padding: 20px 0;
 		width: 21%;
 	}
 
 	header nav ul {
-		margin: 0;
-		padding: ;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 20px 0;
 		list-style: none;
 	}
 
